@@ -1,0 +1,143 @@
+body {
+    background-color: black;
+    font-family: Inter;
+    text-align: center;
+    width: 100%;
+}
+h2 {
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 38px;
+    letter-spacing: -0.03em;
+    text-align: center;
+    color: white;
+}
+.container {
+    align-items: center;
+    margin-left: 30%;
+    height: 100%;
+    width: 550px;
+    left: 696px;
+    top: 126px;
+    border-radius: 0px;
+    background-color: #064E3B;
+
+
+}
+.length {
+    padding: 10px;
+    background-color: #059669;
+    margin: 30px;
+}
+.volume {
+    padding: 10px;
+    background-color: #059669;
+    margin: 30px;
+}
+.mass {
+    padding: 10px;
+    background-color: #059669;
+    margin: 30px;
+}
+.box {
+    background: #075985;
+    height: 285px;
+    width: 550px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+    padding-top: 20px;
+
+}
+.con {
+    box-sizing: border-box;
+    position: absolute;
+    width: 117px;
+    height: 83px;
+    left: 217px;
+    top: 101px;
+    border: 2px solid #B295FF;
+    border-radius: 5px;
+
+}
+button {
+    height: 42px;
+    width: 125px;
+    left: 217px;
+    top: 209px;
+    border-radius: 5px;
+    border-color: white;
+
+}
+.convert {
+    position: absolute;
+    width: 117px;
+    height: 42px;
+    left: 217px;
+    top: 209px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+}
+
+input {
+    height: 83px;
+    width: 117px;
+    left: 217px;
+    top: 101px;
+    border-radius: 5px;
+    font-family: Inter;
+    font-size: 58px;
+    font-weight: 800;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    background-color: transparent;
+    border-color: white;
+    color: white;
+}
+
+h3 {
+    color: #d6cef8;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+p{
+    color: white;
+    text-align: center;
+}
+
+.results {
+    padding-bottom: 2px;
+}
+.loaderImage {
+    width: 150px;
+    margin-top: -130px;
+}
+  
+.notLoaded {
+    height: 100vh;
+    overflow: hidden;
+    position: fixed;
+    margin: 0px;
+}
+  
+#loader {
+    position: absolute;
+    background: white;
+    width: 100%;
+    height: 100vh;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
